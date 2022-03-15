@@ -1,9 +1,0 @@
-shadow = false;
-inactive-dim = 0.5;
-shadow-exclude = [
-"class_g = 'firefox'"
-];
-menu          = { shadow = false; };
-dropdown_menu = { shadow = false; };
-popup_menu    = { shadow = false; };
-utility       = { shadow = false; };
