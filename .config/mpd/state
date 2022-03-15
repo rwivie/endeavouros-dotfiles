@@ -1,0 +1,178 @@
+sw_volume: 53
+audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:my_fifo
+state: pause
+current: 127
+time: 86.080000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Megadeth/Dystopia/01 - The Threat Is Real.mp3
+1:Megadeth/Dystopia/02 - Dystopia.mp3
+2:Megadeth/Dystopia/03 - Fatal Illusion.mp3
+3:Megadeth/Dystopia/04 - Death From Within.mp3
+4:Megadeth/Dystopia/05 - Bullet To The Brain.mp3
+5:Megadeth/Dystopia/06 - Post American World.mp3
+6:Megadeth/Dystopia/07 - Poisonous Shadows.mp3
+7:Megadeth/Dystopia/08 - Conquer Or Die.mp3
+8:Megadeth/Dystopia/09 - Lying In State.mp3
+9:Megadeth/Dystopia/10 - The Emperor.mp3
+10:Megadeth/Dystopia/11 - Foreign Policy.mp3
+11:Avenged Sevenfold/Nightmare (Deluxe Version)/Nightmare.mp3
+12:Avenged Sevenfold/Nightmare (Deluxe Version)/Welcome to the Family.mp3
+13:Avenged Sevenfold/Nightmare (Deluxe Version)/Danger Line.mp3
+14:Avenged Sevenfold/Nightmare (Deluxe Version)/Buried Alive.mp3
+15:Avenged Sevenfold/Nightmare (Deluxe Version)/Natural Born Killer.mp3
+16:Avenged Sevenfold/Nightmare (Deluxe Version)/So Far Away.mp3
+17:Avenged Sevenfold/Nightmare (Deluxe Version)/God Hates Us.mp3
+18:Avenged Sevenfold/Nightmare (Deluxe Version)/Victim.mp3
+19:Avenged Sevenfold/Nightmare (Deluxe Version)/Tonight the World Dies.mp3
+20:Avenged Sevenfold/Nightmare (Deluxe Version)/Fiction.mp3
+21:Avenged Sevenfold/Nightmare (Deluxe Version)/Save Me.mp3
+22:Avenged Sevenfold/Nightmare (Deluxe Version)/Lost It All (Non-Album Track).mp3
+23:Avenged Sevenfold/Hail to the King (Deluxe Version)/01 Shepherd of Fire.mp3
+24:Avenged Sevenfold/Hail to the King (Deluxe Version)/02 Hail to the King.mp3
+25:Avenged Sevenfold/Hail to the King (Deluxe Version)/03 Doing Time.mp3
+26:Avenged Sevenfold/Hail to the King (Deluxe Version)/04 This Means War.mp3
+27:Avenged Sevenfold/Hail to the King (Deluxe Version)/05 Requiem.mp3
+28:Avenged Sevenfold/Hail to the King (Deluxe Version)/06 Crimson Day.mp3
+29:Avenged Sevenfold/Hail to the King (Deluxe Version)/07 Heretic.mp3
+30:Avenged Sevenfold/Hail to the King (Deluxe Version)/08 Coming Home.mp3
+31:Avenged Sevenfold/Hail to the King (Deluxe Version)/09 Planets.mp3
+32:Avenged Sevenfold/Hail to the King (Deluxe Version)/10 Acid Rain.mp3
+33:Avenged Sevenfold/Hail to the King (Deluxe Version)/12 St. James (Bonus Track).mp3
+34:Avenged Sevenfold/The Stage/01 The Stage.mp3
+35:Avenged Sevenfold/The Stage/02 Paradigm.mp3
+36:Avenged Sevenfold/The Stage/03 Sunny Disposition.mp3
+37:Avenged Sevenfold/The Stage/04 God Damn.mp3
+38:Avenged Sevenfold/The Stage/05 Creating God.mp3
+39:Avenged Sevenfold/The Stage/06 Angels.mp3
+40:Avenged Sevenfold/The Stage/07 Simulation.mp3
+41:Avenged Sevenfold/The Stage/08 Higher.mp3
+42:Avenged Sevenfold/The Stage/09 Roman Sky.mp3
+43:Avenged Sevenfold/The Stage/10 Fermi Paradox.mp3
+44:Avenged Sevenfold/The Stage/11 Exist.mp3
+45:Metallica/St. Anger/01 Frantic.mp3
+46:Metallica/St. Anger/02 St. Anger.mp3
+47:Metallica/St. Anger/03 Some Kind of Monster.mp3
+48:Metallica/St. Anger/04 Dirty Window.mp3
+49:Metallica/St. Anger/05 Invisible Kid.mp3
+50:Metallica/St. Anger/06 My World.mp3
+51:Metallica/St. Anger/07 Shoot Me Again.mp3
+52:Metallica/St. Anger/08 Sweet Amber.mp3
+53:Metallica/St. Anger/09 The Unnamed Feeling.mp3
+54:Metallica/St. Anger/10 Purify.mp3
+55:Metallica/St. Anger/11 All Within My Hands.mp3
+56:Metallica/Death Magnetic/01 That Was Just Your Life.mp3
+57:Metallica/Death Magnetic/02 The End of the Line.mp3
+58:Metallica/Death Magnetic/03 Broken, Beat & Scarred.mp3
+59:Metallica/Death Magnetic/04 The Day That Never Comes.mp3
+60:Metallica/Death Magnetic/05 All Nightmare Long.mp3
+61:Metallica/Death Magnetic/06 Cyanide.mp3
+62:Metallica/Death Magnetic/07 The Unforgiven III.mp3
+63:Metallica/Death Magnetic/08 The Judas Kiss.mp3
+64:Metallica/Death Magnetic/09 Suicide & Redemption.mp3
+65:Metallica/Death Magnetic/10 My Apocalypse.mp3
+66:Metallica/Hardwired...To Self-Destruct (Deluxe)/01 - Hardwired.mp3
+67:Metallica/Hardwired...To Self-Destruct (Deluxe)/02 - Atlas, Rise!.mp3
+68:Metallica/Hardwired...To Self-Destruct (Deluxe)/03 - Now That We're Dead.mp3
+69:Metallica/Hardwired...To Self-Destruct (Deluxe)/04 - Moth Into Flame.mp3
+70:Metallica/Hardwired...To Self-Destruct (Deluxe)/05 - Dream No More.mp3
+71:Metallica/Hardwired...To Self-Destruct (Deluxe)/06 - Halo On Fire.mp3
+72:Metallica/Hardwired...To Self-Destruct (Deluxe)/01 - Confusion.mp3
+73:Metallica/Hardwired...To Self-Destruct (Deluxe)/02 - ManUNkind.mp3
+74:Metallica/Hardwired...To Self-Destruct (Deluxe)/03 - Here Comes Revenge.mp3
+75:Metallica/Hardwired...To Self-Destruct (Deluxe)/04 - Am I Savage_.mp3
+76:Metallica/Hardwired...To Self-Destruct (Deluxe)/05 - Murder One.mp3
+77:Metallica/Hardwired...To Self-Destruct (Deluxe)/06 - Spit Out the Bone.mp3
+78:Metallica/Hardwired...To Self-Destruct (Deluxe)/01 - Lords of Summer.mp3
+79:Metallica/Hardwired...To Self-Destruct (Deluxe)/02 - Ronnie Rising Medley (A Light In the Black _ Tarot Woman _ Stargazer _ Kill the King).mp3
+80:Metallica/Hardwired...To Self-Destruct (Deluxe)/03 - When a Blind Man Cries.mp3
+81:Metallica/Hardwired...To Self-Destruct (Deluxe)/04 - Remember Tomorrow.mp3
+82:Metallica/Hardwired...To Self-Destruct (Deluxe)/05 - Helpless (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+83:Metallica/Hardwired...To Self-Destruct (Deluxe)/06 - Hit the Lights (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+84:Metallica/Hardwired...To Self-Destruct (Deluxe)/07 - The Four Horsemen (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+85:Metallica/Hardwired...To Self-Destruct (Deluxe)/08 - Ride the Lightning (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+86:Metallica/Hardwired...To Self-Destruct (Deluxe)/09 - Fade to Black (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+87:Metallica/Hardwired...To Self-Destruct (Deluxe)/10 - Jump in the Fire (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+88:Metallica/Hardwired...To Self-Destruct (Deluxe)/11 - For Whom the Bell Tolls (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+89:Metallica/Hardwired...To Self-Destruct (Deluxe)/12 - Creeping Death (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+90:Metallica/Hardwired...To Self-Destruct (Deluxe)/13 - Metal Militia (Live at Rasputin Music, Berkeley, CA - April 16th, 2016).mp3
+91:Metallica/Hardwired...To Self-Destruct (Deluxe)/14 - Hardwired (Live at U.S. Bank Stadium, Minneapolis, MN - August 20th, 2016).mp3
+92:Avatar/Feathers & Flesh/10 - Night Never Ending.mp3
+93:Avatar/Feathers & Flesh/01 - Regret.mp3
+94:Avatar/Feathers & Flesh/02 - House of Eternal Hunt.mp3
+95:Avatar/Feathers & Flesh/03 - The Eagle has Landed.mp3
+96:Avatar/Feathers & Flesh/04 - New Land.mp3
+97:Avatar/Feathers & Flesh/05 - Tooth, Beak & Claw.mp3
+98:Avatar/Feathers & Flesh/06 - For The Swarm.mp3
+99:Avatar/Feathers & Flesh/07 - Fiddler’s Farewell.mp3
+100:Avatar/Feathers & Flesh/08 - One More Hill.mp3
+101:Avatar/Feathers & Flesh/09 - Black Waters.mp3
+102:Avatar/Feathers & Flesh/10 - Night Never Ending.mp3
+103:Avatar/Feathers & Flesh/11 - Pray the Sun Away.mp3
+104:Avatar/Feathers & Flesh/12 - When The Snow Lies Red.mp3
+105:Avatar/Feathers & Flesh/13 - Raven Wine.mp3
+106:Avatar/Feathers & Flesh/14 - Sky Burial.mp3
+107:Avatar/Feathers & Flesh/15 - I’ve Got Something In My Front Pocket For You (Bonus Track).mp3
+108:Avatar/Feathers & Flesh/16 - DET ÄR ALLDELES FÖRSENT (Bonus Track).mp3
+109:Avatar/Hail The Apocalypse/01 - Hail The Apocalypse.mp3
+110:Avatar/Hail The Apocalypse/02 - What I Don't Know.mp3
+111:Avatar/Hail The Apocalypse/03 - Death of Sound.mp3
+112:Avatar/Hail The Apocalypse/04 - Vultures Fly.mp3
+113:Avatar/Hail The Apocalypse/05 - Bloody Angel.mp3
+114:Avatar/Hail The Apocalypse/06 - Murderer.mp3
+115:Avatar/Hail The Apocalypse/07 - Tsar Bomba.mp3
+116:Avatar/Hail The Apocalypse/08 - Puppet Show.mp3
+117:Avatar/Hail The Apocalypse/09 - Get In Line.mp3
+118:Avatar/Hail The Apocalypse/10 - Something In The Way.mp3
+119:Avatar/Hail The Apocalypse/11 - Tower.mp3
+120:Black Label Society/Order Of The Black/01 - Crazy Horse.mp3
+121:Black Label Society/Order Of The Black/02 - Overlord.mp3
+122:Black Label Society/Order Of The Black/03 - Parade Of The Dead.mp3
+123:Black Label Society/Order Of The Black/04 - Darkest Days.mp3
+124:Black Label Society/Order Of The Black/05 - Black Sunday.mp3
+125:Black Label Society/Order Of The Black/06 - Southern Dissolution.mp3
+126:Black Label Society/Order Of The Black/07 - Time Waits For No One.mp3
+127:Black Label Society/Order Of The Black/08 - Godspeed Hellbound.mp3
+128:Black Label Society/Order Of The Black/09 - War Of Heaven.mp3
+129:Black Label Society/Order Of The Black/10 - Shallow Grave.mp3
+130:Black Label Society/Order Of The Black/11 - Chupacabra.mp3
+131:Black Label Society/Order Of The Black/12 - Riders Of The Damned.mp3
+132:Black Label Society/Order Of The Black/13 - January.mp3
+133:Killswitch Engage/Incarnate/01 - Alone I Stand.mp3
+134:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/01 - Alone I Stand.mp3
+135:Killswitch Engage/Incarnate/02 - Hate By Design.mp3
+136:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/02 - Hate By Design.mp3
+137:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/03 - Cut Me Loose.mp3
+138:Killswitch Engage/Incarnate/03 - Cut Me Loose.mp3
+139:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/04 - Strength Of The Mind.mp3
+140:Killswitch Engage/Incarnate/04 - Strength Of The Mind.mp3
+141:Killswitch Engage/Incarnate/05 - Just Let Go.mp3
+142:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/05 - Just Let Go.mp3
+143:Killswitch Engage/Incarnate/06 - Embrace The Journey...Upraised.mp3
+144:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/06 - Embrace The Journey...Upraised.mp3
+145:Killswitch Engage/Incarnate/07 - Quiet Distress.mp3
+146:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/07 - Quiet Distress.mp3
+147:Killswitch Engage/Incarnate/08 - Until The Day.mp3
+148:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/08 - Until The Day.mp3
+149:Killswitch Engage/Incarnate/09 - It Falls On Me.mp3
+150:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/09 - It Falls On Me.mp3
+151:Killswitch Engage/Incarnate/10 - The Great Deceit.mp3
+152:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/10 - The Great Deceit.mp3
+153:Killswitch Engage/Incarnate/11 - We Carry On.mp3
+154:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/11 - We Carry On.mp3
+155:Killswitch Engage/Incarnate/12 - Ascension.mp3
+156:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/12 - Ascension.mp3
+157:Killswitch Engage/Incarnate/13 - Reignite.mp3
+158:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/13 - Reignite.mp3
+159:Killswitch Engage/Incarnate/14 - Triumph Through Tragedy.mp3
+160:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/14 - Triumph Through Tragedy.mp3
+161:Killswitch Engage/Incarnate/15 - Loyalty.mp3
+162:Killswitch Engage/Incarnate - Killswitch Engage.zip/Killswitch Engage/Incarnate/15 - Loyalty.mp3
+playlist_end
