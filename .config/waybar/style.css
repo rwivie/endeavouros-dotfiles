@@ -1,0 +1,247 @@
+/* =============================================================================
+ *
+ * Waybar configuration
+ *
+ * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+ *
+ * =========================================================================== */
+
+label {
+    all: unset;
+}
+button {
+    all: unset;
+}
+
+/* -----------------------------------------------------------------------------
+ * Keyframes
+ * -------------------------------------------------------------------------- */
+
+@define-color highlight #5e81ac;
+@define-color highlight2 #a3be8c;
+@define-color base1  #4c566a;
+@define-color border    #2e3440;
+@define-color border2  #5e81ac;
+
+@keyframes blink-warning {
+    70% {
+        color: white;
+    }
+
+    to {
+        color: white;
+        background-color: orange;
+    }
+}
+
+@keyframes blink-critical {
+    70% {
+      color: white;
+    }
+
+    to {
+        color: white;
+        background-color: red;
+    }
+}
+
+/* -----------------------------------------------------------------------------
+ * Base styles
+ * -------------------------------------------------------------------------- */
+
+/* Reset all styles */
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 1px;
+    padding: 0;
+}
+
+#waybar {
+        background: rgba(46,52,64,1.0);
+	color: #eceff4;
+        border-radius: 0px;
+         border-bottom: 4px solid #5e81ac;
+        font-family: JetBrainsMono Nerd Font;
+        font-size: 14px;
+}
+
+/* Every module */
+#custom-launcher,
+#workspaces,
+#mode,
+#window,
+#custom-wttrbar,
+#custom-line,
+#clock,
+#custom-line2,
+#custom-xbps,
+#mpd,
+#memory,
+#cpu,
+#pulseaudio,
+#tray,
+#custom-power {
+    /*padding:0.5rem 0.6rem;*/
+    margin-bottom: 4px;
+}
+
+/* -----------------------------------------------------------------------------
+ * Modules styles
+ * -------------------------------------------------------------------------- */
+
+tooltip {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size:13px;
+  background: rgba(43, 51, 57, 1.0);
+  border: 1px solid rgba(43, 51, 57, 1.0);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+tooltip label {
+  color: #ebcb8b;
+}
+
+#custom-launcher {
+    color: #b48ead;
+    font-size:15px;
+    margin-left:15px;
+    margin-right:10px;
+}
+
+#workspaces {
+    font-size:13px;
+}
+
+#workspaces button {
+    border-bottom: 3px solid transparent;
+    color: #81a1c1;
+    margin-bottom: 0px;
+    padding:0px;
+}
+
+#workspaces button.focused {
+    color: #b48ead;
+    margin-bottom: 1px;
+    padding-left:0;
+}
+
+#workspaces button.urgent {
+    border-color: #bf616a;
+    color: #bf616a;
+}
+
+#workspaces button:hover {
+    border-radius: 4px;
+    background: rgba(180, 142, 173, 0.7);
+    border: rgba(180, 142, 173, 0.7);
+    color: #2e3440;
+    padding-left:0;
+}
+
+#mode {
+    background: @highlight;
+    border-bottom: 3px transparent;
+    color:white;
+    margin-left: 5px;
+    padding: 7px;
+}
+
+#window {
+    color: #b48ead;
+    background: transparent;
+}
+
+#custom-weather {
+    color: #ebcb8b;
+}
+
+#custom-wttrbar {
+    color: #ebcb8b;
+}
+
+#custom-line {
+    color: #4c566a;
+}
+
+#clock {
+    color: #ebcb8b;
+}
+
+#custom-line2 {
+    color: #4c566a;
+}
+
+#custom-updates {
+    /*padding-left: 16px;*/
+    padding-right: 8px;
+    border-radius: 10px 0px 0px 10px;
+    transition: none;
+    color: #ebcb8b;
+    background: transparent;
+}
+
+#mpd {
+    color: #b48ead;
+    background: transparent;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+
+#memory {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: #a3be8c;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#memory.warning {
+    color: orange;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+#memory.critical {
+    color: red;
+    animation-name: blink-critical;
+    animation-duration: 2s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#cpu {
+    color: #d08770;
+}
+
+#cpu.warning {
+    color: orange;
+}
+
+#cpu.critical {
+    color: red;
+}
+
+
+#pulseaudio {
+    color: #7fbbb3;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#pulseaudio.microphone {
+    color: #d699b6;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#custom-power {
+    color: #bf616a;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:15px;
+}
