@@ -18,7 +18,8 @@
         "custom/line",
         "clock",
         "custom/line2",
-        "custom/updates"
+        //"custom/updates"
+        "custom/pacman"
     ],
 
     "modules-right": [
@@ -53,18 +54,24 @@
             "6": "6: ",
             "7": "7: ",
             "8": "8: ",
-            "9": "9: ",
+            "9": "9: ",
         }
     },
 
-    "sway/mode": {
+/*    "sway/mode": {
         "format": "{}",
         "tooltip": false
+    },*/
+
+    "sway/mode": {
+	"format": " {}",
+	"max-length": 50
     },
 
     "sway/window": {
 	"format": "{}",
         "icon": true,
+        "icon-size": 16,
 	"max-length": 120,
         "rewrite": {
            "(.*) - Mozilla Firefox": "🌎 $1",
@@ -99,6 +106,7 @@
         "format": "{:%I:%M}  ",
         "format-alt": "{:%A, %B %d, %Y (%R)}  ",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "on-click-middle": "evolution --component=calendar",
         "calendar": {
                     "mode"          : "year",
                     "mode-mon-col"  : 3,
@@ -106,9 +114,9 @@
                     "on-scroll"     : 1,
                     "on-click-right": "mode",
                     "format": {
-                              "months":     "<span color='#ebcb8b'><b>{}</b></span>",
+                              "months":     "<span color='#d08770'><b>{}</b></span>",
                               "days":       "<span color='#b48ead'><b>{}</b></span>",
-                              "weeks":      "<span color='#8fbcbb'><b>W{}</b></span>",
+                              "weeks":      "<span color='#81a1c1'><b>W{}</b></span>",
                               "weekdays":   "<span color='#d08770'><b>{}</b></span>",
                               "today":      "<span color='#bf616a'><b><u>{}</u></b></span>"
                               }
@@ -118,7 +126,7 @@
                     "on-click-forward": "tz_up",
                     "on-click-backward": "tz_down",
                     "on-scroll-up": "shift_up",
-                    "on-scroll-down": "shift_down"
+                    "on-scroll-down": "shift_down",
                     }
     },
 
@@ -137,6 +145,19 @@
        "exec-if": "which waybar-module-pacman-updates | jq --unbuffered --compact-output",
        "exec": "waybar-module-pacman-updates | jq --unbuffered --compact-output"
    },
+
+    "custom/pacman": {
+        //"format": "{} ",
+        "format": "{} 󰮯",
+        "interval": 3600,                     			// every hour
+        //"exec": "(checkupdates;pacman -Qm | aur vercmp) | wc -l",	// # of updates
+        "exec": "(checkupdates;pacman -Qm | yay -Qu) | wc -l",
+        "exec-if": "exit 0",                  			// always run; consider advanced run conditions
+        "on-click": "foot sh -c 'yay; echo Done - Press enter to exit; read'; pkill -SIGRTMIN+8 waybar", // update system
+        "signal": 8,
+        "tooltip": true,
+        "tooltip-format": "{$HOME/.local/bin/news-archlinux.py}",
+    },
 
       "mpd": {
         "interval": 2,
