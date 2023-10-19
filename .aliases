@@ -137,4 +137,5 @@ alias obxprop='xprop | grep "^_OB_APP"'
 alias duhist="dunstctl history-pop"
 alias scrot_th="scrot -t 20 -d 5 -c $HOME/Pictures/ScreenShots/`date +%Y-%m-%d_%H:%M:%S`.png"
 alias wttr="curl wttr.in/Coleman?u"
+alias grabtty="sudo setterm -dump 1 -file screen.dump"
 
