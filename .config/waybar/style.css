@@ -76,7 +76,7 @@ button {
 #custom-line,
 #clock,
 #custom-line2,
-#custom-xbps,
+#custom-pacman,
 #mpd,
 #memory,
 #cpu,
@@ -96,6 +96,7 @@ tooltip {
   font-size:13px;
   background: rgba(43, 51, 57, 1.0);
   border: 1px solid rgba(43, 51, 57, 1.0);
+  /*text-shadow: 5px 5px 3px #bbbbbb, 7px 7px 3px #ccccFF;*/
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 tooltip label {
@@ -150,6 +151,7 @@ tooltip label {
 #window {
     color: #b48ead;
     background: transparent;
+    /*padding-bottom: 7px;*/
 }
 
 #custom-weather {
@@ -173,6 +175,15 @@ tooltip label {
 }
 
 #custom-updates {
+    /*padding-left: 16px;*/
+    padding-right: 8px;
+    border-radius: 10px 0px 0px 10px;
+    transition: none;
+    color: #ebcb8b;
+    background: transparent;
+}
+
+#custom-pacman {
     /*padding-left: 16px;*/
     padding-right: 8px;
     border-radius: 10px 0px 0px 10px;
