@@ -49,20 +49,6 @@ export LS_COLORS
 
 alias ls="ls --color=auto"
 
-
-#==== coloured manuals
-#man() {
-#  env \
-#    LESS_TERMCAP_mb=$(printf "\e[1;31m") \
-#    LESS_TERMCAP_md=$(printf "\e[1;31m") \
-#    LESS_TERMCAP_me=$(printf "\e[0m") \
-#    LESS_TERMCAP_se=$(printf "\e[0m") \
-#    LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
-#    LESS_TERMCAP_ue=$(printf "\e[0m") \
-#    LESS_TERMCAP_us=$(printf "\e[1;32m") \
-#    man "$@"
-#}
-
 # Color man pages
 export LESS_TERMCAP_mb=$'\E[01;32m'
 export LESS_TERMCAP_md=$'\E[01;32m'
@@ -75,9 +61,6 @@ export LESS_TERMCAP_us=$'\E[01;36m'
 export GROFF_NO_SGR=1         # For Konsole and Gnome-terminal
 
 #==== prompts
-
-#PROMPT='%F{green}%n%f@%F{magenta}%m%f %F{blue}%B%~%b%f %# '
-#RPROMPT='[%F{yellow}%?%f]'
 
 autoload -U colors zsh/terminfo
 colors
