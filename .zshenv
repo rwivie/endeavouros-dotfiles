@@ -25,7 +25,6 @@ export AMD_VULKAN_ICD=RADV
 
 
 export LIBVA_DRIVER_NAME=radeonsi
-#export VDPAU_DRIVER=nvidia
 export VDPAU_DRIVER=radeonsi
 #export VDPAU_DRIVER=radeonsi_drv_video
 
