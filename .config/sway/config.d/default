@@ -15,7 +15,7 @@
 	set $term foot
 
 #========================
-#==== set workspaces ====
+#==== set workspaces ====   
 #========================
 	set $WS1 "1: "
 	set $WS2 "2: "
@@ -25,7 +25,7 @@
 	set $WS6 "6: "
 	set $WS7 "7: "
 	set $WS8 "8: "
-	set $WS9 "9: "
+	set $WS9 "9: "
 #========================
 
 #==================
@@ -214,6 +214,10 @@
 	bindsym Shift+print exec /home/ron/.config/sway/scripts/screenshot2 --in10
 	bindsym Ctrl+print exec /home/ron/.config/sway/scripts/screenshot2 --win
 	bindsym $mod+Ctrl+print exec /home/ron/.config/sway/scripts/screenshot2 --area
+
+#==== wf-recorder
+        bindsym Shift+r exec wf-recorder --audio --file=$HOME/Videos/ScreenCapture/`date +%Y-%m-%d_%H:%M:%S`.mp4
+        bindsym Ctrl+r exec killall wf-recorder --signal SIGINT
 
 #==== hyprpicker
 	bindsym $mod+p exec hyprpicker -a
