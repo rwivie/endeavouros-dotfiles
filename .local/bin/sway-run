@@ -14,6 +14,7 @@ export MOZ_ACCELERATED=1
 #export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 
 sleep 20 && dbus-update-activation-environment --systemd --all &
+#exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
 playerctld daemon &
 #steam -silent %U &
 
