@@ -10,7 +10,7 @@ mpDris2 &
 dunst -conf ~/.config/dunst/dunstrc &
 picom --config ~/.config/picom/picom_dwm.conf  --daemon &
 #(sleep 1; xautolock -time 10 -locker lock -corners '+-00' -cornerdelay 15 -notify 15 -notifier "notify-send 'Screen will lock in 15 s'") &
-(sleep 1; xautolock -detectsleep -time 10 -locker 'lock -n' -killtime 11 -killer 'systemctl suspend'-corners '+-00' -cornerdelay 15 -notify 15 -notifier "notify-send 'Screen will lock in 15 s'") &
+(sleep 1; xautolock -detectsleep -time 10 -locker 'lock -n' -killtime 11 -killer 'systemctl suspend' -corners '+-00' -cornerdelay 15 -notify 15 -notifier "notify-send 'Screen will lock in 15 s'") &
 #steam-screensaver-fix-runtime -silent %U &
 sleep 10 && mpd &
 caffeine &
